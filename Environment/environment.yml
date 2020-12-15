@@ -8,6 +8,6 @@ dependencies:
   - matplotlib
   - scipy
   - numpy
-  - torch
   - jupyterlab
+  - torch
 prefix: /home/gianluca/miniconda3/envs/rn_ponti
