@@ -9,5 +9,5 @@ dependencies:
   - scipy
   - numpy
   - jupyterlab
-  - torch
+  - pytorch
 prefix: /home/gianluca/miniconda3/envs/rn_ponti
