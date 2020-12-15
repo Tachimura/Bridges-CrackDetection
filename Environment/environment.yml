@@ -1,0 +1,14 @@
+name: rn_ponti
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.7
+  - matplotlib
+  - pymongo
+  - scipy
+  - numpy
+  - jupyterlab
+  - torch
+prefix: /home/gianluca/miniconda3/envs/rn_ponti
