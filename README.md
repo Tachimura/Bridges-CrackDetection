@@ -14,7 +14,7 @@ Possibili aggiornamenti a questo verranno definiti nel documento README della ca
 ## Dataset
 Il dataset utilizzato è presente nella cartella Dataset e potrà ricevere modifiche nei momenti successivi di sviluppo.<br/>
 Il dataset di partenza scelto è:<br/>
-[Default Dataset](https://www.kaggle.com/arunrk7/surface-crack-detection)
+[Default Dataset](https://data.mendeley.com/datasets/5y9wdsg2zt/2)
 
 ### Python Environment
 
