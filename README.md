@@ -24,7 +24,7 @@ Il dataset di partenza scelto è:<br/>
 
   > `Modify the last row of environment.yml so it links the environment into your 'envs' pc account directory`
   >
-  > `conda env create -f environment.yml`
+  > `conda env create -f Environment/environment.yml`
   >
   > `conda activate rn_ponti`
 
