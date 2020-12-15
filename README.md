@@ -22,6 +22,8 @@ Il dataset di partenza scelto è:<br/>
 
 * Create a new conda environment:
 
+  > `Modify the last row of environment.yml so it links the environment into your 'envs' pc account directory`
+  >
   > `conda env create -f environment.yml`
   >
   > `conda activate rn_ponti`
