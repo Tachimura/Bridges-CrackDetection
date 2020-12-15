@@ -11,8 +11,8 @@ Progetto tesi riconoscimento crepe nei ponti attraverso image recognition
 Nella cartella Environment sarà presente il file Environment.yml per creare un environment contenente già tutti gli imports necessari per il funzionamento del progetto, possibili aggiornamento di questo saranno specificati nel documento UPDATES della cartella
 
 ## Dataset
-Il dataset utilizzato è presente nella cartella Dataset e potrà ricevere modifiche nei momenti successivi di sviluppo.<\br>
-Il dataset di partenza scelto è:<\br>
+Il dataset utilizzato è presente nella cartella Dataset e potrà ricevere modifiche nei momenti successivi di sviluppo.<br/>
+Il dataset di partenza scelto è:<br/>
 [Default Dataset](https://www.kaggle.com/arunrk7/surface-crack-detection)
 
 ### Python Environment
