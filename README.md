@@ -8,7 +8,8 @@ Progetto tesi riconoscimento crepe nei ponti attraverso image recognition
 | Python    | 3.7     |
 
 ## Environment
-Nella cartella Environment sarà presente il file environment.yml per creare un environment contenente già tutti gli imports necessari per il funzionamento del progetto, possibili aggiornamento di questo saranno specificati nel documento README della cartella.
+Nella cartella Environment sarà presente il file environment.yml per creare un environment contenente già tutti gli imports necessari per il funzionamento del progetto.<br/>
+Possibili aggiornamenti a questo verranno definiti nel documento README della cartella.
 
 ## Dataset
 Il dataset utilizzato è presente nella cartella Dataset e potrà ricevere modifiche nei momenti successivi di sviluppo.<br/>
