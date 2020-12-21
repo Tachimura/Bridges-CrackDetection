@@ -1,12 +1,12 @@
 # Test2
 Permette la classificazione di immagini in 3 classi:<br/>
-1_ 'Muratura in stato normale'<br/>
-2_ 'Muratura con delle rotture'<br/>
-3_ "Muratura con sfaldamento (Spalling)"
+1. Muratura in stato normale<br/>
+2. Muratura con delle rotture<br/>
+3. Muratura con sfaldamento (Spalling)
 
 ## Dataset
 Viene utilizzato il Dataset di default ed un dataset apposito per lo Spalling: <br/>
-[Default Dataset](https://data.mendeley.com/datasets/5y9wdsg2zt/2)
+[Default Dataset](https://data.mendeley.com/datasets/5y9wdsg2zt/2) <br/>
 [Spalling Dataset](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/)
 
 ## Note
