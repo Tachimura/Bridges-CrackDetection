@@ -4,7 +4,7 @@ from efficientnet_pytorch import EfficientNet
 
 def getModelInputSize():
     #width, length, channels
-    return (224, 224, 3)
+    return (227, 227, 3)
 
 class ConcreteModel(nn.Module):
     def __init__(self, eff_name = 'efficientnet-b0', n_outs = 1):
