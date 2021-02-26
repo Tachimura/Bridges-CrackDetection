@@ -18,5 +18,5 @@ Questa suddivisione può essere modificata a mano (sono presenti 3 intervalli ch
 (Si è fatto questo per poter testare il corretto funzionamento del codice, si userà una qualche collaborazione esterna per poter addestrare la rete sull'intero dataset su una gpu dedicata: Google collab, ecc...)
 
 ## Citazioni
-[IROS 2017] Liang YANG, Bing LI, Wei LI, Zhaoming LIU, Guoyong YANG,Jizhong XIAO (2017). Deep Concrete Inspection Using Unmanned Aerial Vehicle Towards CSSC Database. 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), [PDF](https://ericlyang.github.io/img/IROS2017/IROS2017.pdf)<br/><br/>
-[ROBIO 2017] Liang YANG, Bing LI, Wei LI, Zhaoming LIU, Guoyong YANG,Jizhong XIAO (2017). A Robotic System Towards Concrete Structure Spalling And Crack Database. 2017 IEEE Int. Conf. on Robotics and Biomimetics (ROBIO 2017), [Project](https://ericlyang.github.io/project/deepinspection/).
+[IROS 2017] Liang YANG, Bing LI, Wei LI, Zhaoming LIU, Guoyong YANG,Jizhong XIAO (2017). Deep Concrete Inspection Using Unmanned Aerial Vehicle Towards CSSC Database. 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), [Link PDF](https://ericlyang.github.io/img/IROS2017/IROS2017.pdf)<br/><br/>
+[ROBIO 2017] Liang YANG, Bing LI, Wei LI, Zhaoming LIU, Guoyong YANG,Jizhong XIAO (2017). A Robotic System Towards Concrete Structure Spalling And Crack Database. 2017 IEEE Int. Conf. on Robotics and Biomimetics (ROBIO 2017), [Link Project](https://ericlyang.github.io/project/deepinspection/).
