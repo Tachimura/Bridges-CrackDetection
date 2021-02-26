@@ -36,7 +36,7 @@ Il dataset di partenza scelto è:<br/>
   If *"All dependencies are satisfied"* message show up, everything has been setup correctly!.
 
   Remember to **activate** rn_ponti conda environment before writing any code!<br/>
-  To deactivate:
+ * To deactivate:
   > `conda deactivate`
 
   To delete the environment (only the environment is deleted, the project directory is a separate entity!):
