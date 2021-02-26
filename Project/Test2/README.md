@@ -10,6 +10,7 @@ Viene utilizzato il Dataset di default ed un dataset apposito per lo Spalling: <
 [Spalling Dataset](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/)
 
 ## Note
+Per scrivere il notebook si è preso come riferimento iniziale: [Link](https://www.kaggle.com/vishnurapps/ensuring-building-safety-using-efficientnets) <br/>
 Per mancanza di una gpu il test è stato effettuato su cpu, il dataset è stato suddiviso in un subtest di dimensioni ridotte per
 evitare tempistiche di training troppo lunghe. <br/>
 Questa suddivisione può essere modificata a mano (sono presenti 3 intervalli che possiamo modificare, nella quale rimuoviamo i dati)
