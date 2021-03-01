@@ -1,5 +1,3 @@
 ## Info
-Qua saranno presenti le varie cartelle del progetto suddivise in base ai loro test <br/>
-Nella cartella Old Test, sono presenti i vecchi test eseguiti per controllare il funzionamento delle funzioni.<br/>
-Nella cartella New Test, sono presenti i nuovi test che raggruppano e suddividono meglio il codice.<br/>
-Tutti i test dentro la cartella New Test, saranno scritti sia per l'uso su Google Collab, che per uso personale.
+Si esegue classificazione binaria per le classi "Normal" e "Crack".<br/>
+L'output della rete (che è uno) viene processato da una sigmoide che, se questo è > 0.5 viene definito crack, normal altrimenti.
