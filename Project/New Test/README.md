@@ -1,7 +1,5 @@
 ## Info
-Presenti due cartelle:
-- Binary-Classification
-- MultiClass-Classification
-<br/>
-All'interno di esse sono presenti le stesse classi, contenenti particolari differenze sulla gestione della classificazione (binaria o multipla).<br/>
-Dunque è vivamente consigliato di usare i notebook con le loro classi di gestione del Modello e delle Utils.
+Con multiclass si intende labelling fatto utilizzando un array [1,0,0] e [0,1,0] indicano 2 classi differenti.<br/>
+Si può espandere in modo molto semplice (basta aggiungere un elemento nell'array delle label).<br/>
+Utilizzare le due classi JDUtils e JDModel contenute in questa cartella per evitare possibili errori di compilazione.<br/><br/>
+I due notebook sono stati utilizzati in congiunzione a Google Collab, in caso di utilizzo personale bisogna modificare in parte gli scripts.
