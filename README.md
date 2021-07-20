@@ -1,4 +1,4 @@
-# tesi-rn-ponti
+# Tesi-NN-Bridges
 Progetto tesi riconoscimento crepe nei ponti attraverso image recognition
 
 ## Setup
