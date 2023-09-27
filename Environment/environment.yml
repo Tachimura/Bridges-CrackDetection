@@ -1,21 +1,12 @@
-name: rn_ponti
+name: bridges_crack_detection
 channels:
   - defaults
   - conda-forge
   - anaconda
   - pytorch
 dependencies:
-  - python=3.7
-  - matplotlib
-  - pandas
+  - python=3.10
   - numpy
-  - scipy
-  - jupyterlab
-  - scikit-learn
-  - efficientnet-pytorch
   - pytorch
-  - imgaug
-  - albumentations
-  - fastprogress
   - torchvision
-prefix: /home/gianluca/miniconda3/envs/rn_ponti
+prefix: /home/tachimura/miniconda3/envs/bridges_crack_detection
