@@ -1,4 +1,4 @@
-# Tesi-NN-Bridges
+# Thesis-NN-Bridges
 
 Thesis project about bridges crack detection using image recognition
 
