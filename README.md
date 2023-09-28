@@ -23,12 +23,10 @@ if you follow the Notebooks we higly recommend to save the dataset in the 'Datas
 There are 2 free-to-use test images in the 'Dataset/Test' folder you can use to test the model.<br/>
 <br/>
 The starting dataset is: [Default Dataset](https://data.mendeley.com/datasets/5y9wdsg2zt/2)
-<br/>
-With the default parameters, we reached around 98% accuracy on the validation set with 5 epochs of training.<br/>
 
 ## Results
 
-The weights provided give a 97.41% accuracy on the validation set (2 classes: Normal vs Crack).
+The weights provided give a 97.41% accuracy on the validation set (2 classes: Normal vs Crack).<br/>
 We trained the model for 3 epochs (su further upgrades are easily feasible).
 
 ### Python Environment
