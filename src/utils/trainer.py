@@ -2,7 +2,7 @@ import copy
 import datetime
 import time
 
-import PIL.Image
+from PIL import Image
 import torch
 from torch.nn import Module
 from torch.nn.functional import cross_entropy
@@ -14,8 +14,8 @@ from utils.dataloader import valid_transformations
 from utils.measures import Accuracy, AverageMeter
 
 
-def inference(model: Module, data_path: str, device):
-    data = PIL.Image.open(data_path)
+def inference(model: Module, data_path: str, device) -> int:
+    data = Image.open(data_path)
     print(f"Loaded image: {data_path}")
     data_transformed = valid_transformations(data)
     # Move to the same device as the model and create the batch dimension
@@ -28,7 +28,7 @@ def inference(model: Module, data_path: str, device):
 
 
 def run(model: Module, dataloader: DataLoader, optimizer: Optimizer | None, scaler: GradScaler | None,
-        device: str, epoch: int, run_type: str = "Train"):
+        device: str, epoch: int, run_type: str = "Train") -> dict:
     acc = Accuracy((1,))
 
     accuracy_meter_1 = AverageMeter()
@@ -79,10 +79,12 @@ def run(model: Module, dataloader: DataLoader, optimizer: Optimizer | None, scal
 
 
 def train_model(model: Module, optimizer: Optimizer, scheduler, scaler: GradScaler,
-                data: tuple[DataLoader, DataLoader], device: str, epochs: int = 100):
+                data: tuple[DataLoader, DataLoader], device: str, epochs: int = 100) \
+        -> tuple[tuple[Module, float], tuple[list[dict], list[dict]]]:
     best_model = None
     best_accuracy = 0.0
     train_loader, valid_loader = data
+    train_accuracies, valid_accuracies = [], []
     for epoch in range(epochs):
         train_perf = run(model, train_loader, optimizer, scaler, device, epoch, "Train")
         valid_perf = run(model, valid_loader, None, None, device, epoch, "Validation")
@@ -92,4 +94,6 @@ def train_model(model: Module, optimizer: Optimizer, scheduler, scaler: GradScal
         scheduler.step()
         print("Train:", train_perf)
         print("Validation:", valid_perf)
-    return best_model, best_accuracy
+        train_accuracies.append(train_perf)
+        valid_accuracies.append(valid_accuracies)
+    return (best_model, best_accuracy), (train_accuracies, valid_accuracies)

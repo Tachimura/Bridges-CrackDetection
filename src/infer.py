@@ -20,7 +20,7 @@ def main(config):
 
     # Print the result
     if result == 0:
-        print("This image has no problems!")
+        print("This is a normal image!")
     elif result == 1:
         print("A crack was detected in the image!")
     elif result == 2:
@@ -33,7 +33,7 @@ if __name__ == "__main__":
     simulation_config = {
         "seed": 0,
         "model_path": "..\\SavedWeights\\trained_model.pt",
-        "data_path": "..\\Dataset\\test.jpeg",
+        "data_path": "..\\Dataset\\Test\\test_crack.jpeg",
         "n_classes": 2,
     }
     main(simulation_config)
