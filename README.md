@@ -2,9 +2,6 @@
 
 Thesis project about bridges crack detection using image recognition
 
-## TODO
-Since the project received a massive update, notebooks are still to be updated.
-
 ## Setup
 
 |        | Version |
@@ -22,11 +19,17 @@ A requirements.txt is also available for ad hoc installations.
 
 The used dataset for this project can be located in the Dataset folder and might receive updates during the development
 of this project (dataset is around 250MB, and can be downloaded from the link below).<br/>
-There is a free-to-use test.jpeg image in the Dataset folder you can use to test the model.<br/>
+if you follow the Notebooks we higly recommend to save the dataset in the 'Dataset/Train' folder.<br/>
+There are 2 free-to-use test images in the 'Dataset/Test' folder you can use to test the model.<br/>
 <br/>
 The starting dataset is: [Default Dataset](https://data.mendeley.com/datasets/5y9wdsg2zt/2)
 <br/>
 With the default parameters, we reached around 98% accuracy on the validation set with 5 epochs of training.<br/>
+
+## Results
+
+The weights provided give a 97.41% accuracy on the validation set (2 classes: Normal vs Crack).
+We trained the model for 3 epochs (su further upgrades are easily feasible).
 
 ### Python Environment
 

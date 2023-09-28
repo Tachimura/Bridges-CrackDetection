@@ -11,5 +11,4 @@
 *.xml
 *.idea
 *.iml
-*/Dataset/Train/
-*.jpg
+*Dataset/Train/*

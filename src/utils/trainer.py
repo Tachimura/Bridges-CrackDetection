@@ -85,6 +85,7 @@ def train_model(model: Module, optimizer: Optimizer, scheduler, scaler: GradScal
     best_accuracy = 0.0
     train_loader, valid_loader = data
     train_accuracies, valid_accuracies = [], []
+    print(f"Starting training for {epochs} epochs.")
     for epoch in range(epochs):
         train_perf = run(model, train_loader, optimizer, scaler, device, epoch, "Train")
         valid_perf = run(model, valid_loader, None, None, device, epoch, "Validation")
@@ -95,5 +96,5 @@ def train_model(model: Module, optimizer: Optimizer, scheduler, scaler: GradScal
         print("Train:", train_perf)
         print("Validation:", valid_perf)
         train_accuracies.append(train_perf)
-        valid_accuracies.append(valid_accuracies)
+        valid_accuracies.append(valid_perf)
     return (best_model, best_accuracy), (train_accuracies, valid_accuracies)
