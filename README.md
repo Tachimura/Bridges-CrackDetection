@@ -39,7 +39,15 @@ In the 'utils' folder there are all the functions used for the training, the mod
 The weights provided give a 97.41% accuracy on the validation set (2 classes: Normal vs Crack).<br/>
 We trained the model for 3 epochs (su further upgrades are easily feasible).
 
-### Python Environment
+### Python Environment <1>
+
+The first approach is to create his own environment and install all the required packages in the requirements.txt through pip<br/>
+This can be performed as follows:
+  > `pip install -m requirements.txt`
+
+### Python Environment <2>
+
+If you want to use conda/anaconda follow this other setup:
 
 * Install conda/anaconda distribution
 
