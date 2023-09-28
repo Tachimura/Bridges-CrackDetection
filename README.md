@@ -19,10 +19,20 @@ A requirements.txt is also available for ad hoc installations.
 
 The used dataset for this project can be located in the Dataset folder and might receive updates during the development
 of this project (dataset is around 250MB, and can be downloaded from the link below).<br/>
-if you follow the Notebooks we higly recommend to save the dataset in the 'Dataset/Train' folder.<br/>
+If you follow the Notebooks we higly recommend to save the dataset in the 'Dataset/Train' folder.<br/>
 There are 2 free-to-use test images in the 'Dataset/Test' folder you can use to test the model.<br/>
 <br/>
 The starting dataset is: [Default Dataset](https://data.mendeley.com/datasets/5y9wdsg2zt/2)
+
+## Notebooks
+
+There are two notebooks that shows how to train and how to use a model for inference.
+
+# Code
+
+The main code is under the 'src' folder.<br/>
+There are 2 scripts called 'train.py' and 'infer.py' that can be used to train or perform an inference.<br/>
+In the 'utils' folder there are all the functions used for the training, the model management etc...
 
 ## Results
 
